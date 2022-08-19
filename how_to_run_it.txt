@@ -1,0 +1,2 @@
+python3 ApplicationMain.py -v ./data/IMG_2330.MOV -dm ./YoloV5_DeepSort/best.pt -tm ./YoloV5_DeepSort/deep_sort/deep_128.pb -pm ./PoseEst/pose_model/poseEstimationModel25.h5 -rm ./TrajectoryRecon/checkpoint/recon_model.pt -tj two_json.json -cj cam_json.json -wj world_json.json -bbj box_json.json -ov overlay_video.mp4  -MT Body_25 -aj angles.json --classes ./YoloV5_DeepSort/yolov5/data/coco.names.txt -bbv box_video.mp4 -c converted_video.mp4
+
